@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Urbanist", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+body{
+/*	background-color: #80CBC4;*/
+/*	color: #000;*/
+	background: #2C3E50;  /* fallback for old browsers */
+	background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 5%;
+}
+
+.frm{
+/*	border: 1px solid black;*/
+	background-color: #FBF8EF;
+	width: 500px;
+	height: 550px;
+	margin: auto;
+	padding: 5% 5%;
+	border-radius: 10px;
+}
+
+.frm h1{
+	margin-top: 50px;
+}
+.frm p{
+	margin-top: 10px;
+}
+
+.frm input{
+	background-color: transparent;
+	display: block;
+	margin-top: 10px;
+	padding: 5% 6%;
+	width: 100%;
+	font-size: 14px;
+/*	font-weight: 500;*/
+	font-weight: bolder;
+	border: 1px solid #302f2f;
+}
+
+.frm input:hover{
+	outline: 3px solid #c2f2ff;
+}
+
+.frm .subbtn{
+	width: 100%;
+	background-color: #3b5fed;
+}
+
+.rchk{
+	display: flex;
+	flex-direction: row;
+	align-items: center	;
+}
+.rchk input{
+	width: 20px;
+
+}
+.rchk input:focus{
+	outline: none;
+}
+.rchk, label{
+	margin-top: 5px;
+}
+
+form .rh1{
+	margin-top: 20px;
+}
+
+.subbtn{
+	color: #fff;
+}
+.ipbox{
+	position: relative;
+}
+.fa-eye{
+	position: relative;
+	top: -35px;
+	left: 325px;
+	background-color: transparent;
+	border: transparent;
+	cursor: pointer;
+}
+
+.er{
+	font-size: 12px;
+}

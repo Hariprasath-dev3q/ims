@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Urbanist", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+:root{
+	--lightblue: #B8E3E9;
+	--lightgrey: #93B1B5;
+	--halfdark: #4F7C82;
+	--fulldark: #0B2E33;
+
+	--bs-offcanvas-custom-width: 300px;
+}
+
+nav ul li{
+	color: #000;
+	list-style-type: none;
+	text-decoration: none;
+	position: relative;
+	text-align: left;
+	padding-top: 15%;
+	margin-left: 30px;
+}
+
+nav ul li a{
+	color: #000;
+	text-decoration: none;
+}
+nav ul li{
+	border-bottom: 1px solid var(--lightgrey);
+}
+nav ul li:hover{
+	margin-left: 40px;
+	transition: .4s ease-in-out;
+}
+nav ul{
+	padding-left: 0;
+	margin-top: 0px;
+}
+.fa-solid{
+	margin-right: 10px;
+}
+.list-bg-color{
+	width: 150px;
+	padding: 15px;
+	margin-top: 0px;
+}
+ul li, i, a:hover{
+	color: red;
+}
+
+.dash-list{
+	position: relative;
+	width: max-content;
+}
+
+.dash-list::after{
+	content:'';
+	background-color: red;
+	width: 0;
+	height: 4px;
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	border-radius: 100px;
+	background: linear-gradient(to right, red, black);
+	transition: .5s;
+}
+
+.dash-list:hover::after{
+	width: 100%;
+}
+
+.ims-main{
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+	position: relative;
+	left: 50px;
+	top: 20px;
+}
+.ims-main img{
+	width: 100px;
+	height: 80px;
+}
+.nav-title{
+	color: #fff;
+	margin-left: 30px;
+}
+
+.navbar>.container-fluid{
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.fixed-top{
+	z-index: 1;
+}
+.row{
+	border: 1px solid #000;
+	width: 50%;
+	margin: -3% 25%;
+	padding: 2% 2%;
+/*	background-color:lightgrey ;*/
+}
+
+.email_ipbox{
+	width: 400px;
+}
+.nav-tabs, .table{
+	margin: 5% 10%;
+	width: 80%;
+}
+.table{
+	overflow: scroll;
+}
+.btn{
+	margin-left: 20px;
+	width: 100px;
+	text-align: center;
+}
+.btn_refresh{
+	position: absolute;
+	right: 150px;
+	top: 140px;
+}
+.nav .nav_tab_heading{
+	margin: auto;
+}
+.sales_page_btn .btn{
+	display: block;
+}
+.custom-offcanvas{
+	width: 250px !important;
+}
+.demo-ref{
+	position: absolute;
+	right: 150px;
+	top: 150px;
+}
+.sale-custom-search{
+	height: 40px;
+	margin-top: 45px;
+	border-radius: 50%;
+	border: 1px solid black;
+	width: 40px;
+	margin-left: 10px;
+	color: black;
+}
+.sale-custom-search:hover{
+	border: 2px solid #00d4ff;
+	background-color: #00d4ff;
+	box-shadow: 0 0 10px #00ffbf ;
+}
+.custom-dashitems{
+	margin: 5% 25%;
+	border: 0px solid transparent;
+
+}
+.card-body{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	padding: 50px;
+}
+.card-body:hover{
+	background-color: var(--lightblue);
+	transition: .4s;
+	cursor: pointer;
+}
+.custom-alert{
+	position: absolute;
+	top: 60px;
+	right: 30px;
+	width: 250px;
+}
+.custom-tab-masterfile{
+	margin-bottom: 100px;
+}
+.userBadge{
+	width: 150px;
+	padding: 5px 20px;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	background: rgba( 255, 255, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	color: #fff;
+}
+.fa-user{
+	position: absolute;
+	right: 140px;
+	top: 20px;
+}
+.custom-row{
+	position: relative;
+}
+.master-srchbtn{
+	position: absolute;
+	right: 0px;
+	left: 250px;
+	top: 77px;
+}
